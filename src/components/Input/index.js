@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Input = ({label, onChangeHandler, value}) => (
   <div>
     <label>{label}</label>
-    <input onChange={(event) => onChangeHandler(label, event.target.value)} value={value} />
+    <input onChange={(event) => onChangeHandler(event.target.value)} value={value} />
   </div>
 );
 
